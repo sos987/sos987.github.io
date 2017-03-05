@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Doubleyouday &mdash; Как Это Было</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+	<!--<script type="text/javascript" src="http://vk.com/js/api/openapi.js?120"></script>
+	<script type="text/javascript">VK.init({apiId: 5133986, onlyWidgets: true});</script>-->	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
+	<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var pepe = $.fn.fullpage({
+				anchors: ['photos'],
+				afterRender: function(){
+			    /*	VK.Widgets.Comments("vk_comments2", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 2);
+					VK.Widgets.Comments("vk_comments3", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 3);
+					VK.Widgets.Comments("vk_comments4", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 4);
+					VK.Widgets.Comments("vk_comments5", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 5);
+					VK.Widgets.Comments("vk_comments6", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 6);
+					VK.Widgets.Comments("vk_comments7", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 7);
+					VK.Widgets.Comments("vk_comments8", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 8);
+					VK.Widgets.Comments("vk_comments9", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 9);
+					VK.Widgets.Comments("vk_comments10", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 10);
+					VK.Widgets.Comments("vk_comments11", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 11);
+					VK.Widgets.Comments("vk_comments12", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 12);
+					VK.Widgets.Comments("vk_comments13", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 13);
+					VK.Widgets.Comments("vk_comments14", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 14);
+					VK.Widgets.Comments("vk_comments15", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 15);
+					VK.Widgets.Comments("vk_comments16", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 16);
+					VK.Widgets.Comments("vk_comments17", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 17);
+					VK.Widgets.Comments("vk_comments18", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 18);
+					VK.Widgets.Comments("vk_comments19", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 19);
+					VK.Widgets.Comments("vk_comments20", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 20);
+					VK.Widgets.Comments("vk_comments21", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 21);
+					VK.Widgets.Comments("vk_comments22", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 22);
+					VK.Widgets.Comments("vk_comments23", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 23);
+					VK.Widgets.Comments("vk_comments24", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 24);
+					VK.Widgets.Comments("vk_comments25", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 25);
+					VK.Widgets.Comments("vk_comments26", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 26);
+					VK.Widgets.Comments("vk_comments27", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 27);
+					VK.Widgets.Comments("vk_comments28", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 28);
+					VK.Widgets.Comments("vk_comments29", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 29);
+					VK.Widgets.Comments("vk_comments30", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 30);
+					VK.Widgets.Comments("vk_comments31", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 31);
+					VK.Widgets.Comments("vk_comments32", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 32);
+					VK.Widgets.Comments("vk_comments33", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 33);
+					VK.Widgets.Comments("vk_comments34", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 34);
+					VK.Widgets.Comments("vk_comments35", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 35);
+					VK.Widgets.Comments("vk_comments36", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 36);
+					VK.Widgets.Comments("vk_comments37", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 37);
+					VK.Widgets.Comments("vk_comments38", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 38);
+					VK.Widgets.Comments("vk_comments39", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 39);
+					VK.Widgets.Comments("vk_comments40", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 40);
+					VK.Widgets.Comments("vk_comments41", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 41);
+					VK.Widgets.Comments("vk_comments42", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 42);
+					VK.Widgets.Comments("vk_comments43", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 43);
+					VK.Widgets.Comments("vk_comments44", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 44);
+					VK.Widgets.Comments("vk_comments45", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 45);
+					VK.Widgets.Comments("vk_comments46", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 46);
+					VK.Widgets.Comments("vk_comments47", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 47);
+					VK.Widgets.Comments("vk_comments48", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 48);
+					VK.Widgets.Comments("vk_comments49", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 49);
+					VK.Widgets.Comments("vk_comments50", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 50);
+					VK.Widgets.Comments("vk_comments51", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 51);
+					VK.Widgets.Comments("vk_comments52", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 52);
+					VK.Widgets.Comments("vk_comments53", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 53);
+					VK.Widgets.Comments("vk_comments54", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 54);
+					VK.Widgets.Comments("vk_comments55", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 55);
+					VK.Widgets.Comments("vk_comments56", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 56);
+					VK.Widgets.Comments("vk_comments57", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 57);
+					VK.Widgets.Comments("vk_comments58", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 58);
+					VK.Widgets.Comments("vk_comments59", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 59);
+					VK.Widgets.Comments("vk_comments60", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 60);
+					VK.Widgets.Comments("vk_comments61", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 61);
+					VK.Widgets.Comments("vk_comments62", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 62);
+					VK.Widgets.Comments("vk_comments63", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 63);
+					VK.Widgets.Comments("vk_comments64", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 64);
+					VK.Widgets.Comments("vk_comments65", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 65);
+					VK.Widgets.Comments("vk_comments66", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 66);
+					VK.Widgets.Comments("vk_comments67", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 67);
+					VK.Widgets.Comments("vk_comments68", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 68);
+					VK.Widgets.Comments("vk_comments69", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 69);
+					VK.Widgets.Comments("vk_comments70", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 70);
+					VK.Widgets.Comments("vk_comments71", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 71);
+					VK.Widgets.Comments("vk_comments72", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 72);
+					VK.Widgets.Comments("vk_comments73", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 73);
+					VK.Widgets.Comments("vk_comments74", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 74);
+					VK.Widgets.Comments("vk_comments75", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 75);
+					VK.Widgets.Comments("vk_comments76", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 76);
+					VK.Widgets.Comments("vk_comments77", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 77);
+					VK.Widgets.Comments("vk_comments78", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 78);
+					VK.Widgets.Comments("vk_comments79", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 79);
+					VK.Widgets.Comments("vk_comments80", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 80);
+					VK.Widgets.Comments("vk_comments81", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 81);
+					VK.Widgets.Comments("vk_comments82", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 82);
+					VK.Widgets.Comments("vk_comments83", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 83);
+					VK.Widgets.Comments("vk_comments84", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 84);
+					VK.Widgets.Comments("vk_comments85", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 85);
+					VK.Widgets.Comments("vk_comments86", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 86);
+					VK.Widgets.Comments("vk_comments87", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 87);
+					VK.Widgets.Comments("vk_comments88", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 88);
+					VK.Widgets.Comments("vk_comments89", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 89);
+					VK.Widgets.Comments("vk_comments90", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 90);
+					VK.Widgets.Comments("vk_comments91", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 91);
+					VK.Widgets.Comments("vk_comments92", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 92);
+					VK.Widgets.Comments("vk_comments93", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 93);
+					VK.Widgets.Comments("vk_comments94", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 94);
+					VK.Widgets.Comments("vk_comments95", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 95);
+					VK.Widgets.Comments("vk_comments96", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 96);
+					VK.Widgets.Comments("vk_comments97", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 97);
+					VK.Widgets.Comments("vk_comments98", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 98);
+					VK.Widgets.Comments("vk_comments99", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 99);
+					VK.Widgets.Comments("vk_comments100", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 100);
+					VK.Widgets.Comments("vk_comments101", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 101);
+					VK.Widgets.Comments("vk_comments102", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 102);
+					VK.Widgets.Comments("vk_comments103", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 103);
+					VK.Widgets.Comments("vk_comments104", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 104);
+					VK.Widgets.Comments("vk_comments105", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 105);
+					VK.Widgets.Comments("vk_comments106", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 106);
+					VK.Widgets.Comments("vk_comments107", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 107);
+					VK.Widgets.Comments("vk_comments108", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 108);
+					VK.Widgets.Comments("vk_comments109", {autoPublish: 0, limit: 20, width: "401", height: "501", attach: false, mini: 1}, 109);*/
+			    },
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		function fullScreen() {
+			var el = document.documentElement
+				, rfs = // for newer Webkit and Firefox
+					el.requestFullScreen
+					|| el.webkitRequestFullScreen
+					|| el.mozRequestFullScreen
+					|| el.msRequestFullScreen
+			;
+			if(typeof rfs!="undefined" && rfs){
+				rfs.call(el);
+			} else if(typeof window.ActiveXObject!="undefined"){
+				// for Internet Explorer
+				var wscript = new ActiveXObject("WScript.Shell");
+				if (wscript!=null) {
+					wscript.SendKeys("{F11}");
+				}
+			}	
+		}
+    </script>
+	<script type="text/javascript">function checkPass(){var pass=prompt('Ты все еще помнишь свадебный пароль?','');if(pass=='Wday'){window.location='https://yadi.sk/d/fn8WoNZjkq2HV';}else{alert('Попробуйте еще раз!');}}</script>
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.loader').fadeOut();
+		});
+	</script>
+</head>
+<body>
+<div class="section" id="section0">
+	<div class="slide" id="slide1">
+		<div class="loader">
+			<h1>LOADING...</h1>
+		</div>
+		<h1>#doubleyouday</h1>
+		<h1 class="link">&#8597; <a href="#" onclick="fullScreen()">FULLSCREEN</a></h1>
+		<h2 class="link"><a href="http://doubleyouday.ru/video/" target="_blank">WHERE ARE MY VIDEOS?!</a></h2>
+	</div>
+    <div class="slide" id="slide2"><div id="vk_comments2" class="vk_comments"></div></div>
+	<div class="slide" id="slide3"><div id="vk_comments3" class="vk_comments"></div></div>
+	<div class="slide" id="slide4"><div id="vk_comments4" class="vk_comments"></div></div>
+	<div class="slide" id="slide5"><div id="vk_comments5" class="vk_comments"></div></div>
+	<div class="slide" id="slide6"><div id="vk_comments6" class="vk_comments"></div></div>
+	<div class="slide" id="slide7"><div id="vk_comments7" class="vk_comments"></div></div>
+	<div class="slide" id="slide8"><div id="vk_comments8" class="vk_comments"></div></div>
+	<div class="slide" id="slide9"><div id="vk_comments9" class="vk_comments"></div></div>
+	<div class="slide" id="slide10"><div id="vk_comments10" class="vk_comments"></div></div>
+	<div class="slide" id="slide11"><div id="vk_comments11" class="vk_comments"></div></div>
+	<div class="slide" id="slide12"><div id="vk_comments12" class="vk_comments"></div></div>
+	<div class="slide" id="slide13"><div id="vk_comments13" class="vk_comments"></div></div>
+	<div class="slide" id="slide14"><div id="vk_comments14" class="vk_comments"></div></div>
+	<div class="slide" id="slide15"><div id="vk_comments15" class="vk_comments"></div></div>
+	<div class="slide" id="slide16"><div id="vk_comments16" class="vk_comments"></div></div>
+	<div class="slide" id="slide17"><div id="vk_comments17" class="vk_comments"></div></div>
+	<div class="slide" id="slide18"><div id="vk_comments18" class="vk_comments"></div></div>
+	<div class="slide" id="slide19"><div id="vk_comments19" class="vk_comments"></div></div>
+	<div class="slide" id="slide20"><div id="vk_comments20" class="vk_comments"></div></div>
+	<div class="slide" id="slide21"><div id="vk_comments21" class="vk_comments"></div></div>
+	<div class="slide" id="slide22"><div id="vk_comments22" class="vk_comments"></div></div>
+	<div class="slide" id="slide23"><div id="vk_comments23" class="vk_comments"></div></div>
+	<div class="slide" id="slide24"><div id="vk_comments24" class="vk_comments"></div></div>
+	<div class="slide" id="slide25"><div id="vk_comments25" class="vk_comments"></div></div>
+	<div class="slide" id="slide26"><div id="vk_comments26" class="vk_comments"></div></div>
+	<div class="slide" id="slide27"><div id="vk_comments27" class="vk_comments"></div></div>
+	<div class="slide" id="slide28"><div id="vk_comments28" class="vk_comments"></div></div>
+	<div class="slide" id="slide29"><div id="vk_comments29" class="vk_comments"></div></div>
+	<div class="slide" id="slide30"><div id="vk_comments30" class="vk_comments"></div></div>
+	<div class="slide" id="slide31"><div id="vk_comments31" class="vk_comments"></div></div>
+	<div class="slide" id="slide32"><div id="vk_comments32" class="vk_comments"></div></div>
+	<div class="slide" id="slide33"><div id="vk_comments33" class="vk_comments"></div></div>
+	<div class="slide" id="slide34"><div id="vk_comments34" class="vk_comments"></div></div>
+	<div class="slide" id="slide35"><div id="vk_comments35" class="vk_comments"></div></div>
+	<div class="slide" id="slide36"><div id="vk_comments36" class="vk_comments"></div></div>
+	<div class="slide" id="slide37"><div id="vk_comments37" class="vk_comments"></div></div>
+	<div class="slide" id="slide38"><div id="vk_comments38" class="vk_comments"></div></div>
+	<div class="slide" id="slide39"><div id="vk_comments39" class="vk_comments"></div></div>
+	<div class="slide" id="slide40"><div id="vk_comments40" class="vk_comments"></div></div>
+	<div class="slide" id="slide41"><div id="vk_comments41" class="vk_comments"></div></div>
+	<div class="slide" id="slide42"><div id="vk_comments42" class="vk_comments"></div></div>
+	<div class="slide" id="slide43"><div id="vk_comments43" class="vk_comments"></div></div>
+	<div class="slide" id="slide44"><div id="vk_comments44" class="vk_comments"></div></div>
+	<div class="slide" id="slide45"><div id="vk_comments45" class="vk_comments"></div></div>
+	<div class="slide" id="slide46"><div id="vk_comments46" class="vk_comments"></div></div>
+	<div class="slide" id="slide47"><div id="vk_comments47" class="vk_comments"></div></div>
+	<div class="slide" id="slide48"><div id="vk_comments48" class="vk_comments"></div></div>
+	<div class="slide" id="slide49"><div id="vk_comments49" class="vk_comments"></div></div>
+	<div class="slide" id="slide50"><div id="vk_comments50" class="vk_comments"></div></div>
+	<div class="slide" id="slide51"><div id="vk_comments51" class="vk_comments"></div></div>
+	<div class="slide" id="slide52"><div id="vk_comments52" class="vk_comments"></div></div>
+	<div class="slide" id="slide53"><div id="vk_comments53" class="vk_comments"></div></div>
+	<div class="slide" id="slide54"><div id="vk_comments54" class="vk_comments"></div></div>
+	<div class="slide" id="slide55"><div id="vk_comments55" class="vk_comments"></div></div>
+	<div class="slide" id="slide56"><div id="vk_comments56" class="vk_comments"></div></div>
+	<div class="slide" id="slide57"><div id="vk_comments57" class="vk_comments"></div></div>
+	<div class="slide" id="slide58"><div id="vk_comments58" class="vk_comments"></div></div>
+	<div class="slide" id="slide59"><div id="vk_comments59" class="vk_comments"></div></div>
+	<div class="slide" id="slide60"><div id="vk_comments60" class="vk_comments"></div></div>
+	<div class="slide" id="slide61"><div id="vk_comments61" class="vk_comments"></div></div>
+	<div class="slide" id="slide62"><div id="vk_comments62" class="vk_comments"></div></div>
+	<div class="slide" id="slide63"><div id="vk_comments63" class="vk_comments"></div></div>
+	<div class="slide" id="slide64"><div id="vk_comments64" class="vk_comments"></div></div>
+	<div class="slide" id="slide65"><div id="vk_comments65" class="vk_comments"></div></div>
+	<div class="slide" id="slide66"><div id="vk_comments66" class="vk_comments"></div></div>
+	<div class="slide" id="slide67"><div id="vk_comments67" class="vk_comments"></div></div>
+	<div class="slide" id="slide68"><div id="vk_comments68" class="vk_comments"></div></div>
+	<div class="slide" id="slide69"><div id="vk_comments69" class="vk_comments"></div></div>
+	<div class="slide" id="slide70"><div id="vk_comments70" class="vk_comments"></div></div>
+	<div class="slide" id="slide71"><div id="vk_comments71" class="vk_comments"></div></div>
+	<div class="slide" id="slide72"><div id="vk_comments72" class="vk_comments"></div></div>
+	<div class="slide" id="slide73"><div id="vk_comments73" class="vk_comments"></div></div>
+	<div class="slide" id="slide74"><div id="vk_comments74" class="vk_comments"></div></div>
+	<div class="slide" id="slide75"><div id="vk_comments75" class="vk_comments"></div></div>
+	<div class="slide" id="slide76"><div id="vk_comments76" class="vk_comments"></div></div>
+	<div class="slide" id="slide77"><div id="vk_comments77" class="vk_comments"></div></div>
+	<div class="slide" id="slide78"><div id="vk_comments78" class="vk_comments"></div></div>
+	<div class="slide" id="slide79"><div id="vk_comments79" class="vk_comments"></div></div>
+	<div class="slide" id="slide80"><div id="vk_comments80" class="vk_comments"></div></div>
+	<div class="slide" id="slide81"><div id="vk_comments81" class="vk_comments"></div></div>
+	<div class="slide" id="slide82"><div id="vk_comments82" class="vk_comments"></div></div>
+	<div class="slide" id="slide83"><div id="vk_comments83" class="vk_comments"></div></div>
+	<div class="slide" id="slide84"><div id="vk_comments84" class="vk_comments"></div></div>
+	<div class="slide" id="slide85"><div id="vk_comments85" class="vk_comments"></div></div>
+	<div class="slide" id="slide86"><div id="vk_comments86" class="vk_comments"></div></div>
+	<div class="slide" id="slide87"><div id="vk_comments87" class="vk_comments"></div></div>
+	<div class="slide" id="slide88"><div id="vk_comments88" class="vk_comments"></div></div>
+	<div class="slide" id="slide89"><div id="vk_comments89" class="vk_comments"></div></div>
+	<div class="slide" id="slide90"><div id="vk_comments90" class="vk_comments"></div></div>
+	<div class="slide" id="slide91"><div id="vk_comments91" class="vk_comments"></div></div>
+	<div class="slide" id="slide92"><div id="vk_comments92" class="vk_comments"></div></div>
+	<div class="slide" id="slide93"><div id="vk_comments93" class="vk_comments"></div></div>
+	<div class="slide" id="slide94"><div id="vk_comments94" class="vk_comments"></div></div>
+	<div class="slide" id="slide95"><div id="vk_comments95" class="vk_comments"></div></div>
+	<div class="slide" id="slide96"><div id="vk_comments96" class="vk_comments"></div></div>
+	<div class="slide" id="slide97"><div id="vk_comments97" class="vk_comments"></div></div>
+	<div class="slide" id="slide98"><div id="vk_comments98" class="vk_comments"></div></div>
+	<div class="slide" id="slide99"><div id="vk_comments99" class="vk_comments"></div></div>
+	<div class="slide" id="slide100"><div id="vk_comments100" class="vk_comments"></div></div>
+	<div class="slide" id="slide101"><div id="vk_comments101" class="vk_comments"></div></div>
+	<div class="slide" id="slide102"><div id="vk_comments102" class="vk_comments"></div></div>
+	<div class="slide" id="slide103"><div id="vk_comments103" class="vk_comments"></div></div>
+	<div class="slide" id="slide104"><div id="vk_comments104" class="vk_comments"></div></div>
+	<div class="slide" id="slide105"><div id="vk_comments105" class="vk_comments"></div></div>
+	<div class="slide" id="slide106"><div id="vk_comments106" class="vk_comments"></div></div>
+	<div class="slide" id="slide107"><div id="vk_comments107" class="vk_comments"></div></div>
+	<div class="slide" id="slide108"><div id="vk_comments108" class="vk_comments"></div></div>
+	<div class="slide" id="slide109"><div id="vk_comments109" class="vk_comments"></div></div>
+	<div class="slide" id="slidelast">
+		<h1 class="link">&#8595; <a href="#" onclick="checkPass()">DOWNLOAD</a></h1>
+	</div>
+</div>
+</body>
+</html>
