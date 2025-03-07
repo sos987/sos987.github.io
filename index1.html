@@ -14,10 +14,11 @@
 	<![endif]-->
 	<!--<script type="text/javascript" src="http://vk.com/js/api/openapi.js?120"></script>
 	<script type="text/javascript">VK.init({apiId: 5133986, onlyWidgets: true});</script>-->	
-	<style>img {
-          max-width:100%;
+	<style>
+	img {
+      max-width:100%;
 	  height: auto;
-        }
+    }
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
@@ -26,7 +27,8 @@
 	$(document).ready(function() {
 		$('#fullpage').fullpage({
 			autoScrolling:false,
-			scrollHorizontally:false
+			scrollHorizontally:false,
+			fitToSection:true
 		});
 	});
 	</script>
@@ -56,7 +58,7 @@
 <div id="fullpage">
    <div class="section">
 	<div class="slide"><img data-src="img/1.jpg"/></div>
-        <div class="slide"><img data-src="img/2.jpg"/></div>
+    <div class="slide"><img data-src="img/2.jpg"/></div>
 	<div class="slide"><img data-src="img/3.jpg"/></div>
 	<div class="slide"><img data-src="img/4.jpg"/></div>
 	<div class="slide"><h1 class="link">&#8595; <a href="#" onclick="checkPass()">DOWNLOAD</a></h1></div>
